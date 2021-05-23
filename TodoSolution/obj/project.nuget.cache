@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "yvJSGNbb0F45iv1oOiTojJKVDAyYaCLa1B/IYtfJiASbtKShHUsdUums2SdHfTACPNuja3PPLUrBeyscn1sRAA==",
+  "success": true,
+  "projectFilePath": "C:\\CustomPCF\\TodoList\\TodoSolution\\TodoSolution.cdsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nicof\\.nuget\\packages\\microsoft.powerapps.msbuild.pcf\\1.5.5\\microsoft.powerapps.msbuild.pcf.1.5.5.nupkg.sha512",
+    "C:\\Users\\nicof\\.nuget\\packages\\microsoft.powerapps.msbuild.solution\\1.5.5\\microsoft.powerapps.msbuild.solution.1.5.5.nupkg.sha512"
+  ],
+  "logs": []
+}

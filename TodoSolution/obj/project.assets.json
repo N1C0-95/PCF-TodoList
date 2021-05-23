@@ -1,0 +1,250 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.6.2": {
+      "Microsoft.PowerApps.MSBuild.Pcf/1.5.5": {
+        "type": "package",
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "Microsoft.PowerApps.MSBuild.Solution/1.5.5": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.PowerApps.MSBuild.Solution.props": {},
+          "build/Microsoft.PowerApps.MSBuild.Solution.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Microsoft.PowerApps.MSBuild.Solution.props": {},
+          "buildMultiTargeting/Microsoft.PowerApps.MSBuild.Solution.targets": {}
+        }
+      },
+      "TodoList/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.2",
+        "dependencies": {
+          "Microsoft.PowerApps.MSBuild.Pcf": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TodoList.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TodoList.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.2/win": {
+      "Microsoft.PowerApps.MSBuild.Pcf/1.5.5": {
+        "type": "package",
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "Microsoft.PowerApps.MSBuild.Solution/1.5.5": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.PowerApps.MSBuild.Solution.props": {},
+          "build/Microsoft.PowerApps.MSBuild.Solution.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Microsoft.PowerApps.MSBuild.Solution.props": {},
+          "buildMultiTargeting/Microsoft.PowerApps.MSBuild.Solution.targets": {}
+        }
+      },
+      "TodoList/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.2",
+        "dependencies": {
+          "Microsoft.PowerApps.MSBuild.Pcf": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TodoList.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TodoList.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.2/win-x64": {
+      "Microsoft.PowerApps.MSBuild.Pcf/1.5.5": {
+        "type": "package",
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "Microsoft.PowerApps.MSBuild.Solution/1.5.5": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.PowerApps.MSBuild.Solution.props": {},
+          "build/Microsoft.PowerApps.MSBuild.Solution.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Microsoft.PowerApps.MSBuild.Solution.props": {},
+          "buildMultiTargeting/Microsoft.PowerApps.MSBuild.Solution.targets": {}
+        }
+      },
+      "TodoList/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.2",
+        "dependencies": {
+          "Microsoft.PowerApps.MSBuild.Pcf": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TodoList.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TodoList.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.2/win-x86": {
+      "Microsoft.PowerApps.MSBuild.Pcf/1.5.5": {
+        "type": "package",
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "Microsoft.PowerApps.MSBuild.Solution/1.5.5": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.PowerApps.MSBuild.Solution.props": {},
+          "build/Microsoft.PowerApps.MSBuild.Solution.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Microsoft.PowerApps.MSBuild.Solution.props": {},
+          "buildMultiTargeting/Microsoft.PowerApps.MSBuild.Solution.targets": {}
+        }
+      },
+      "TodoList/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.2",
+        "dependencies": {
+          "Microsoft.PowerApps.MSBuild.Pcf": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TodoList.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TodoList.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.PowerApps.MSBuild.Pcf/1.5.5": {
+      "sha512": "CImUwLfWTc2xoYnJeWLUni25Yo+JL1Nd/k4Lo0tOPTwK9Khbw2STgtHjPLChlMvUWDg3CrJJtA8WJa4/uY0JdA==",
+      "type": "package",
+      "path": "microsoft.powerapps.msbuild.pcf/1.5.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "3rdPartyNotice.txt",
+        "LICENSE.txt",
+        "build/Microsoft.PowerApps.MSBuild.Pcf.props",
+        "build/Microsoft.PowerApps.MSBuild.Pcf.targets",
+        "microsoft.powerapps.msbuild.pcf.1.5.5.nupkg.sha512",
+        "microsoft.powerapps.msbuild.pcf.nuspec"
+      ]
+    },
+    "Microsoft.PowerApps.MSBuild.Solution/1.5.5": {
+      "sha512": "3yloI817nUmf7C7mMrhRRcKQu+2OG5PMaGF+leeAHb2UCoFFMZioRsfm1+UZLjJWCxWU94abwxqYAydbnoAgTA==",
+      "type": "package",
+      "path": "microsoft.powerapps.msbuild.solution/1.5.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "3rdPartyNotice.txt",
+        "LICENSE.txt",
+        "build/Microsoft.PowerApps.MSBuild.Solution.props",
+        "build/Microsoft.PowerApps.MSBuild.Solution.targets",
+        "buildMultiTargeting/Microsoft.PowerApps.MSBuild.Solution.props",
+        "buildMultiTargeting/Microsoft.PowerApps.MSBuild.Solution.targets",
+        "content/Microsoft.ApplicationInsights.dll",
+        "content/Microsoft.PowerApps.AppInsights.BatchedTelemetry.dll",
+        "content/Microsoft.PowerApps.AppInsights.BatchedTelemetryChannel.dll",
+        "content/SolutionPackager.exe",
+        "content/SolutionPackager.exe.config",
+        "content/SolutionPackagerLib.dll",
+        "content/System.ValueTuple.dll",
+        "content/bolt.cli.dll",
+        "content/bolt.system.dll",
+        "content/pacTelemetryTask.exe",
+        "content/pacTelemetryUpload.exe",
+        "microsoft.powerapps.msbuild.solution.1.5.5.nupkg.sha512",
+        "microsoft.powerapps.msbuild.solution.nuspec",
+        "tasks/net462/Microsoft.PowerApps.MSBuild.Tasks.dll",
+        "tasks/net462/bolt.module.solution.dll",
+        "tasks/netstandard2.0/Microsoft.PowerApps.MSBuild.Tasks.dll",
+        "tasks/netstandard2.0/bolt.module.solution.dll"
+      ]
+    },
+    "TodoList/1.0.0": {
+      "type": "project",
+      "path": "../TodoList.pcfproj",
+      "msbuildProject": "../TodoList.pcfproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.6.2": [
+      "Microsoft.PowerApps.MSBuild.Solution >= 1.*",
+      "TodoList >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\nicof\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\CustomPCF\\TodoList\\TodoSolution\\TodoSolution.cdsproj",
+      "projectName": "TodoSolution",
+      "projectPath": "C:\\CustomPCF\\TodoList\\TodoSolution\\TodoSolution.cdsproj",
+      "packagesPath": "C:\\Users\\nicof\\.nuget\\packages\\",
+      "outputPath": "C:\\CustomPCF\\TodoList\\TodoSolution\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\nicof\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net462"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net462": {
+          "targetAlias": "net462",
+          "projectReferences": {
+            "C:\\CustomPCF\\TodoList\\TodoList.pcfproj": {
+              "projectPath": "C:\\CustomPCF\\TodoList\\TodoList.pcfproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "net462": {
+        "targetAlias": "net462",
+        "dependencies": {
+          "Microsoft.PowerApps.MSBuild.Solution": {
+            "target": "Package",
+            "version": "[1.*, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

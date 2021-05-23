@@ -1,0 +1,112 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\CustomPCF\\TodoList\\TodoSolution\\TodoSolution.cdsproj": {}
+  },
+  "projects": {
+    "C:\\CustomPCF\\TodoList\\TodoList.pcfproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\CustomPCF\\TodoList\\TodoList.pcfproj",
+        "projectName": "TodoList",
+        "projectPath": "C:\\CustomPCF\\TodoList\\TodoList.pcfproj",
+        "packagesPath": "C:\\Users\\nicof\\.nuget\\packages\\",
+        "outputPath": "C:\\CustomPCF\\TodoList\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nicof\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net462"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net462": {
+            "targetAlias": "net462",
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net462": {
+          "targetAlias": "net462",
+          "dependencies": {
+            "Microsoft.PowerApps.MSBuild.Pcf": {
+              "target": "Package",
+              "version": "[1.*, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\CustomPCF\\TodoList\\TodoSolution\\TodoSolution.cdsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\CustomPCF\\TodoList\\TodoSolution\\TodoSolution.cdsproj",
+        "projectName": "TodoSolution",
+        "projectPath": "C:\\CustomPCF\\TodoList\\TodoSolution\\TodoSolution.cdsproj",
+        "packagesPath": "C:\\Users\\nicof\\.nuget\\packages\\",
+        "outputPath": "C:\\CustomPCF\\TodoList\\TodoSolution\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nicof\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net462"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net462": {
+            "targetAlias": "net462",
+            "projectReferences": {
+              "C:\\CustomPCF\\TodoList\\TodoList.pcfproj": {
+                "projectPath": "C:\\CustomPCF\\TodoList\\TodoList.pcfproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net462": {
+          "targetAlias": "net462",
+          "dependencies": {
+            "Microsoft.PowerApps.MSBuild.Solution": {
+              "target": "Package",
+              "version": "[1.*, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

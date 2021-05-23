@@ -1,0 +1,2 @@
+C:\CustomPCF\TodoList\TodoSolution\obj\Debug\TodoSolution.cdsprojAssemblyReference.cache
+C:\CustomPCF\TodoList\TodoSolution\obj\Debug\TodoSolution.cdsproj.CoreCompileInputs.cache

@@ -1,0 +1,37 @@
+2021-04-26 23:51:12.538 - Info	
+Packing C:\CustomPCF\TodoList\TodoSolution\obj\Debug\Metadata to bin\Debug\TodoSolution.zip
+
+2021-04-26 23:51:12.554 - Info	Processing Component: Entities
+2021-04-26 23:51:12.554 - Info	Processing Component: Roles
+2021-04-26 23:51:12.554 - Info	Processing Component: Workflows
+2021-04-26 23:51:12.554 - Info	Processing Component: FieldSecurityProfiles
+2021-04-26 23:51:12.554 - Info	Processing Component: Templates
+2021-04-26 23:51:12.554 - Info	Processing Component: EntityMaps
+2021-04-26 23:51:12.554 - Info	Processing Component: EntityRelationships
+2021-04-26 23:51:12.554 - Info	Processing Component: OrganizationSettings
+2021-04-26 23:51:12.554 - Info	Processing Component: optionsets
+2021-04-26 23:51:12.554 - Info	Processing Component: CustomControls
+2021-04-26 23:51:12.570 - Info	Processing Component: SolutionPluginAssemblies
+2021-04-26 23:51:12.570 - Info	Processing Component: EntityDataProviders
+2021-04-26 23:51:12.585 - Info	
+Unmanaged Pack complete.
+
+2021-04-27 00:19:06.840 - Info	
+Packing C:\CustomPCF\TodoList\TodoSolution\obj\Debug\Metadata to bin\Debug\TodoSolution.zip
+
+2021-04-27 00:19:06.860 - Info	Processing Component: Entities
+2021-04-27 00:19:06.864 - Info	Processing Component: Roles
+2021-04-27 00:19:06.867 - Info	Processing Component: Workflows
+2021-04-27 00:19:06.867 - Info	Processing Component: FieldSecurityProfiles
+2021-04-27 00:19:06.867 - Info	Processing Component: Templates
+2021-04-27 00:19:06.868 - Info	Processing Component: EntityMaps
+2021-04-27 00:19:06.868 - Info	Processing Component: EntityRelationships
+2021-04-27 00:19:06.879 - Info	Processing Component: OrganizationSettings
+2021-04-27 00:19:06.880 - Info	Processing Component: optionsets
+2021-04-27 00:19:06.880 - Info	Processing Component: CustomControls
+2021-04-27 00:19:06.900 - Info	 - TodoList.Todo
+2021-04-27 00:19:06.941 - Info	Processing Component: SolutionPluginAssemblies
+2021-04-27 00:19:06.942 - Info	Processing Component: EntityDataProviders
+2021-04-27 00:19:06.966 - Info	
+Unmanaged Pack complete.
+
